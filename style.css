@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: roboto, arial;
+    height: 2000px;
+   
+
+}
+.header{
+    display: flex;
+    
+    justify-content: space-between;
+    height: 60px;
+    background-color: aliceblue;
+    
+}
+.slideshow{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    align-items: center;
+    
+   
+}
+.slide-photo{
+    width: 900px;
+    margin-top: 20px;
+    width: 100%;
+    
+    
+}
+.logo{
+    display: flex;
+    width: 140px;
+    height: 100px;
+    margin-top: 20px;
+   
+    margin-left: 50px;
+}
+ul{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    background-color: red;
+    list-style: none;
+    color: white;
+    margin-left: 100px;
+    margin-right: 0;
+    height: 80px;
+    margin-top: 20px;
+    width: 100%;
+    padding-left: 40px;
+}
+li{
+    padding-right: 40px;
+   max-width: 500px;
+    font-size: 20px;
+    display: flex;
+    cursor: pointer;
+    
+    
+    
+}
+li:hover{
+    color: black;
+}
+.cover-text{
+    position: absolute;
+    margin-left: 200px;
+    size: 3vw;
+    margin-top: 90px;
+   
+    
+   
+}
+.hello{
+    color: rgb(156, 156, 156);
+    font-size: 2rem;
+    margin-bottom: 4px;
+}
+.my-name{
+    color: red;
+    font-size: clamp(0.4rem, 0.3rem + 5vw, 4rem);
+}
+
+
+.designation{
+    color: rgb(156, 156, 156);
+    margin-top: 4px;
+    font-size: 1.4rem;
+}
+.hire-btn{
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    color: white;
+    background-color: red;
+    border: none;
+
+}
+.hire-btn:hover{
+    background-color: white;
+    color: red;
+    border-style: solid;
+    cursor: pointer;
+}
+
+
+.h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    color: red;
+    font-size: 30px;
+}
+.projects{
+    display: grid;
+    margin-left: 50px;
+    justify-content: center;
+    
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 22vw;
+    margin-top: 20px;
+    background-color: rgb(244, 244, 244);
+    border-color: rgb(187, 187, 187);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    
+    
+    
+}
+.display{
+    width: 22vw;
+    height: 20vw;
+    object-fit: cover;
+}
+.display:hover{
+    cursor: pointer;
+    transform: scale(105%);
+    transition: 0.4s;
+}
+.h5{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.h5:hover{
+    cursor: pointer;
+    transform: scale(105%);
+    transition: 0.4s;
+    color: red;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+      
+}
+
+
+.about-me{
+    background-color: aliceblue;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.about-container{
+    display: flex;
+    
+    align-items: center;
+    margin-left: 30px;
+}
+.about-photo{
+    width: 10vw;
+    border-radius: 5vw;
+    margin-top: 80px;
+}
+.text{
+    width: 500px;
+    margin-left: 30px;
+}
+.about-paragraph{
+    margin-top: 20px;
+    color: gray;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    color: rgb(155, 155, 155);
+    margin-right: 300px;
+    margin-top: 20px;
+    
+
+
+}
+.name{
+    display: flex;
+}
+.last-name{
+    margin-left: 10px;
+    
+}
+.input{
+    height: 20px;
+    margin-bottom: 10px;
+    border-color: rgb(204, 204, 204);
+    border-width: 1px;
+    
+}
+.input2{
+    width: 290px;
+    height: 100px;
+    border-color: rgb(204, 204, 204);
+    border-width: 1px;
+    margin-bottom: 20px;
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.in-touch-text{
+    width: 210px;
+    margin-left: 300px;
+    color: rgb(162, 162, 162);
+    margin-top: 30px;
+
+}
+.submit{
+    background-color: red;
+    width: 100px;
+    color: white;
+    border-style: none;
+    height: 20px;
+}
+.submit:hover{
+cursor: pointer;
+background-color: rgb(229, 229, 229);
+color: rgb(255, 0, 0);
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    height: 90px;
+    align-items: center;
+    padding: 0px 50px;
+    color: white;
+    margin-top: 40px;
+}
+.copyright{
+   font-size: 10px;
+}
+.social-media{
+    font-size: 20px;
+}
+
+
+.fa-instagram{
+    margin-right: 10px;
+}
+.fa-facebook-f:hover{
+    cursor: pointer;
+    transform: scale(120%);
+    transition: 0.4s;
+    color: rgb(123, 0, 0);
+}
+.fa-twitter{
+    margin-right: 10px;
+}
+.fa-twitter:hover{
+    cursor: pointer;
+    transform: scale(120%);
+    transition: 0.4s;
+    color: rgb(123, 0, 0);
+}
+.fa-facebook-f{
+    margin-right: 10px;
+}
+.fa-instagram:hover{
+    cursor: pointer;
+    transform: scale(120%);
+    transition: 0.4s;
+    color: rgb(123, 0, 0);
+}
+.fa-behance:hover{
+    cursor: pointer;
+    transform: scale(120%);
+    transition: 0.4s;
+    color: rgb(123, 0, 0);
+
+}
